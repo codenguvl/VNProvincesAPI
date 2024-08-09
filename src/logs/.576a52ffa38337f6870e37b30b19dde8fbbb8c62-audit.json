@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\VNProvincesAPI\\src\\logs\\.576a52ffa38337f6870e37b30b19dde8fbbb8c62-audit.json",
+  "files": [
+    {
+      "date": 1723184047422,
+      "name": "D:\\VNProvincesAPI\\src\\logs\\2024-08-09-results.log",
+      "hash": "e5e986c489db981bc2b17feb0df5bdf47863ce0d27bf032942c3b7d6129b8d39"
+    }
+  ],
+  "hashType": "sha256"
+}
