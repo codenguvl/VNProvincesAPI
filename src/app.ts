@@ -4,7 +4,7 @@ import regionRoutes from './routes/region.routes'
 import administrativeDivisionRoutes from './routes/administrativeDivision.routes'
 
 import logMiddleware from './middlewares/logger.middleware'
-import './services/redis.service'
+/* import './services/redis.service' */
 
 const app = express()
 
