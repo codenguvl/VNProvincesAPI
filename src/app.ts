@@ -7,6 +7,12 @@ import cors from 'cors';
 import logMiddleware from './middlewares/logger.middleware'
 /* import './services/redis.service' */
 
+import os from 'os'
+
+const numCPUs = os.cpus().length;
+process.env.UV_THREADPOOL_SIZE = numCPUs.toString();
+
+
 const app = express()
 
 app.use(cors({
